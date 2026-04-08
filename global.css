@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* 🔵 BASE */
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    /* 🔥 PRIMARY (biru utama) */
+    --primary: 221 83% 53%;
+    --primary-foreground: 0 0% 100%;
+
+    /* 🔹 SECONDARY */
+    --secondary: 210 40% 92%;
+    --secondary-foreground: 222 47% 20%;
+
+    /* 🌫 MUTED */
+    --muted: 210 40% 95%;
+    --muted-foreground: 215 20% 40%;
+
+    /* ✨ ACCENT */
+    --accent: 217 91% 60%;
+
+    /* ❌ DESTRUCTIVE */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* 🔲 BORDER */
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+
+    /* 🔵 RING */
+    --ring: 221 83% 53%;
+
+    /* ✅ SUCCESS */
+    --success: 142 71% 45%;
+
+    /* 🎯 PROJECT CATEGORY */
+    --project-study: 262 83% 58%; /* ungu (belajar) */
+    --project-study-foreground: 0 0% 100%;
+
+    --project-skill: 199 89% 48%; /* biru muda (skill) */
+    --project-skill-foreground: 0 0% 100%;
+
+    --project-work: 24 95% 53%; /* orange (kerja) */
+    --project-work-foreground: 0 0% 100%;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      /* 🌙 DARK */
+      --background: 222 47% 11%;
+      --foreground: 210 40% 98%;
+
+      --card: 222 47% 14%;
+      --card-foreground: 210 40% 98%;
+
+      --primary: 217 91% 60%;
+      --primary-foreground: 222 47% 11%;
+
+      --secondary: 217 33% 20%;
+      --secondary-foreground: 210 40% 90%;
+
+      --muted: 217 33% 18%;
+      --muted-foreground: 215 20% 70%;
+
+      --accent: 221 83% 53%;
+      --accent-foreground: 0 0% 100%;
+
+      --destructive: 0 63% 31%;
+      --destructive-foreground: 0 85% 75%;
+
+      --border: 217 33% 25%;
+      --input: 217 33% 25%;
+
+      --ring: 217 91% 60%;
+
+      --success: 142 70% 50%;
+
+      /* 🎯 PROJECT CATEGORY (dark) */
+      --project-study: 262 60% 65%;
+      --project-study-foreground: 0 0% 100%;
+
+      --project-skill: 199 70% 60%;
+      --project-skill-foreground: 0 0% 100%;
+
+      --project-work: 24 80% 60%;
+      --project-work-foreground: 0 0% 100%;
+    }
+  }
+}
